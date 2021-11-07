@@ -1,29 +1,28 @@
 *{
-    
     margin: 0;
     text-decoration: none;
     list-style: none;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .navbar{
-   
     height: 120px;
     width: 100%;
     background-color: #000;
     color: white;
-  
-   
 }
+
 nav ul {
     float: right;
     margin-right: 100px;
 }
+
 nav ul li{
     display: inline-block;
     line-height: 150px;
     margin: 0 5px;
 }
+
 ul li a{
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 50px;
@@ -32,6 +31,7 @@ ul li a{
     font-weight: 700;
     display: inline-block;
 }
+
 a.active,a:hover{
     color: #15f4ee;
 }
