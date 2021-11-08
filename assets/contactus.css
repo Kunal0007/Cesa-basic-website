@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    padding: 2rem 0 4rem;
+}
+
+.section__title{
+    font-size: 2.5rem;
+}
+
+.section__subtitle{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.section__subtitle, 
+.section__title {
+    text-align: center;
+}
+
+
+.container {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+/* .grid {
+    display: grid;
+    gap: 1.5rem;
+} */
+.contact__form {
+    width: 700px;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__content {
+    background-color: rgba(241, 241, 241, 0.685);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem 0.25rem;
+}
+
+.contact__label {
+    font-size: 1rem;
+    color: black;
+}
+
+.contact__input {
+    width: 100%;
+    background-color: rgba(241, 241, 241, 0.685);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button__icon {
+    margin-left: 0.5rem;
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: darkgrey;
+    font-size: 1.1rem;
+}

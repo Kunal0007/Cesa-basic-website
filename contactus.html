@@ -1,47 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
-    <!-- google fonts -->
-<!-- font awesome -->
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-<!-- font awesome -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <!-- google fonts -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <link rel="stylesheet" href="./assets//home.css">
-    <title>Document</title>
-</head>
-<body>
-    <div >
-        <nav class="navbar">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-<label class="logo">CESA</label>
-<ul class="navlinks">
-    <li class="navlink"> <a  href="index.html">Home</a> </li>
-    <li class="navlink"> <a  href="aboutus.html">About Us</a></li>
-    <li class="navlink"> <a class="active" href="contactus.html">Contact Us</a></li>
-    
-       
-    
-</ul>
+        <link rel="stylesheet" href="./assets/contactus.css">
+        <link rel="stylesheet" href="./assets/home.css">
+        <title>CESA</title>
+    </head>
+    <body>
+        <div>
+            <nav class="navbar">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">CESA</label>
+                <ul class="navlinks">
+                    <li class="navlink"> <a  href="index.html">Home</a> </li>
+                    <li class="navlink"> <a  href="aboutus.html">About Us</a></li>
+                    <li class="navlink"> <a class="active" href="contactus.html">Contact Us</a></li>   
+                </ul>
+            </nav>
+            <div class="contact section" id="contact">
+                <h2 class="section__title">Contact Us</h2>
+                <span class="section__subtitle">Get In Touch</span>
 
-        </nav>
+                <div class="contact__container container">
+                    <form action="mailto:kunal.kv1dr64@gmail.com" method="POST" enctype="text/plain"
+                        class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
 
-<div class="content">
-<h2 class="text">This is Contact Us</h2>
-</div>
-        
-        <footer class="footer">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
 
-        </footer>
-    </div>
-</body>
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="material-icons button__icon">send</i>
+                            </a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            
+            <footer class="footer">
+
+            </footer>
+        </div>
+    </body>
 </html>
