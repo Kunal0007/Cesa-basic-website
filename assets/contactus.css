@@ -30,8 +30,8 @@ html{
 
 
 .container {
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 
 /* .grid {
@@ -48,7 +48,9 @@ html{
 }
 
 .contact__inputs {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: .5rem;
     justify-content: space-between;
 }
 
@@ -98,4 +100,22 @@ html{
 .button:hover {
     color: darkgrey;
     font-size: 1.1rem;
+}
+
+@media (max-width : 858px){
+    .container {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .contact__inputs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width : 450px){
+    .container {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 }
